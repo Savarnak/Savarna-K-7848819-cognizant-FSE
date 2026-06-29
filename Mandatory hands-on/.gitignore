@@ -1,0 +1,20 @@
+# IntelliJ IDEA
+.idea/
+**/.idea/
+*.iml
+
+# Maven
+target/
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
