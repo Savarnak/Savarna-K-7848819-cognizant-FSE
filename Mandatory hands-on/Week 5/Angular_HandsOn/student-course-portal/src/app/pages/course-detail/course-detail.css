@@ -1,0 +1,19 @@
+h2 {
+  color: #4C1D95;
+  margin-bottom: 12px;
+}
+
+p {
+  color: #374151;
+  margin: 8px 0;
+}
+
+.btn-back {
+  background-color: #F3E8FF;
+  color: #6B21A8;
+  border: 1px solid #D8B4FE;
+}
+
+.btn-back:hover {
+  background-color: #E9D5FF;
+}

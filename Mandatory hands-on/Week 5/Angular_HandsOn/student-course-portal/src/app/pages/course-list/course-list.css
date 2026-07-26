@@ -1,0 +1,13 @@
+h2 {
+  color: #4C1D95;
+  margin-bottom: 16px;
+}
+
+input[type="text"] {
+  max-width: 320px;
+  margin-right: 8px;
+}
+
+button {
+  margin-right: 6px;
+}

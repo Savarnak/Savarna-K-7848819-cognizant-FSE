@@ -1,0 +1,61 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Java Programming",
+      "code": "CS101",
+      "credits": 4,
+      "gradeStatus": "passed"
+    },
+    {
+      "id": "2",
+      "name": "Angular Development",
+      "code": "CS305",
+      "credits": 3,
+      "gradeStatus": "pending"
+    },
+    {
+      "id": "3",
+      "name": "Database Systems",
+      "code": "CS210",
+      "credits": 4,
+      "gradeStatus": "failed"
+    },
+    {
+      "id": "4",
+      "name": "Operating Systems",
+      "code": "CS220",
+      "credits": 4,
+      "gradeStatus": "passed"
+    },
+    {
+      "id": "5",
+      "name": "Computer Networks",
+      "code": "CS230",
+      "credits": 3,
+      "gradeStatus": "pending"
+    },
+    {
+      "name": "Artificial Intelligence",
+      "code": "CS106",
+      "credits": 4,
+      "gradeStatus": "pending",
+      "id": "PPfJs4evaTU"
+    },
+    {
+      "name": "Artificial Intelligence",
+      "code": "CS106",
+      "credits": 4,
+      "gradeStatus": "pending",
+      "id": "BPR9vbmaKtQ"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Savarna K"
+    }
+  ],
+  "enrollments": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

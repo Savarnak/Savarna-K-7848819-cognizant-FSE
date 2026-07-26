@@ -1,1 +1,51 @@
-<p>course-list works!</p>
+<h2>Available Courses</h2>
+
+<input
+  type="text"
+  placeholder="Search courses..."
+  [(ngModel)]="searchTerm">
+
+<button (click)="updateSearch()">
+  Search
+</button>
+
+<button (click)="clearSearch()">
+  Clear
+</button>
+
+<br><br>
+
+@if (selectedCourse !== '') {
+  <p>
+    <strong>Selected Course:</strong> {{ selectedCourse }}
+  </p>
+}
+
+@if ((courses$ | async); as courses) {
+
+  @if (courses.length > 0) {
+
+    @for (course of courses; track trackByCourseId($index, course)) {
+
+      <div (click)="viewCourse(course)" style="cursor:pointer;">
+
+        <app-course-card
+          [course]="course"
+          (enroll)="onEnroll($event)">
+        </app-course-card>
+
+      </div>
+
+    }
+
+  } @else {
+
+    <p>No courses available.</p>
+
+  }
+
+} @else {
+
+  <p>Loading courses...</p>
+
+}

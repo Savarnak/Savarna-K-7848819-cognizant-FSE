@@ -1,0 +1,43 @@
+.card {
+  background-color: #FFFFFF;
+  border: 1px solid #E9D5FF;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(108, 92, 231, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(108, 92, 231, 0.1);
+}
+
+.card--enrolled {
+  background-color: #F8F5FF;
+  border-color: #D8B4FE;
+}
+
+.card--full {
+  box-shadow: 0 4px 12px rgba(124, 77, 255, 0.12);
+}
+
+.card.expanded {
+  border-color: #7C4DFF;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #4C1D95;
+}
+
+.card p {
+  margin: 6px 0;
+  color: #374151;
+}
+
+button {
+  margin-right: 8px;
+  margin-top: 8px;
+}
